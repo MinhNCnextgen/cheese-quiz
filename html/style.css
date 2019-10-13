@@ -1,0 +1,354 @@
+html {
+    scroll-behavior: smooth;
+  }
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+  }
+  a:hover{
+    text-decoration: none;
+  }
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    height:100%;
+}
+.header_background{
+    position: relative;
+    background: linear-gradient(90deg, rgba(236,23,107,1) 0%, rgba(237,37,99,1) 8.37%, rgba(240,68,82,1) 26.11%, rgba(248,160,30,1) 70.44%, rgba(253,213,0,1) 100%);
+    width:100%;
+    height:800px;
+    font-weight: 500;
+}
+.header_background img{
+    float:right;
+    margin-top:275px;
+    margin-right:100px;
+    height:400px;
+    width:758px;
+}
+
+.heading_txt{
+    position: absolute;
+    top:200px;
+    left:200px; 
+}
+.heading_big_txt{
+    font-size:65px;
+    color:white;
+    font-weight: 700;
+    word-spacing: 5px;
+}
+.heading_small_txt{
+    margin-top:30px;
+    margin-left:10px;
+    font-size:26px;
+    color:white;
+    font-weight: 400;
+    opacity:0.7;
+}
+.play{ 
+    position: absolute;
+    top:500px;
+    left:180px;
+    width:500px;
+    display: inline-block;
+}
+.play_button {   
+    background: linear-gradient(101deg, rgba(26,162,59,1) 0%, rgba(27,171,107,1) 35%, rgba(28,181,163,1) 75.37%, rgba(32,189,200,1) 100%);
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border-color:black;
+    display: flex;
+    align-items: center; 
+    
+  }
+.play_text{
+    position: absolute;
+    top:30%;
+    left:30%;
+    font-size:25px;
+    color:white;
+    font-weight:400;
+}
+.triangle {
+    position: relative;
+    left: 5px;
+    border-style: solid;
+    border-width: 17px 0 17px 32px;
+    border-color: transparent transparent transparent white;
+    margin:0 auto;
+}
+.play_button:hover{
+    cursor: pointer;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    /* border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray; */
+    z-index: 20;
+    /* background:black; */
+    transition:0.5s;
+}
+.nav-colored { background:#DE195D; }
+.nav-transparent { background-color:transparent;}
+
+.navButton{
+    display:flex;
+    margin-left:5px;
+    position: relative;
+    font-size: 17px;
+    width:30%;
+    justify-content:space-between;
+    color:white; 
+    margin-right:40px;
+}
+.navButton div:hover {
+    color:rgb(190, 24, 190); 
+    transition:0.2s;
+    cursor:pointer;
+    opacity:0.7;
+}
+.contact{
+    background: linear-gradient(101deg, rgba(26,162,59,1) 0%, rgba(27,171,107,1) 35%, rgba(28,181,163,1) 75.37%, rgba(32,189,200,1) 100%);
+    border-radius:50px 50px 50px 50px;
+    border:0.5px black;
+    width:100px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+}
+.contact:hover{
+    opacity: 1;
+    background: linear-gradient(90deg, rgba(32,189,200,1) 0%, rgba(28,181,163,1) 35%, rgba(27,171,107,1) 75.37%, rgba(26,162,59,1) 100%);
+}
+.navbar img{
+    height:50px;
+    margin-left:30px;
+}
+/* body{
+    background:lightsalmon;
+} */
+
+.footer{
+    color:white;
+    background:#404040;
+    width:100%;
+    height:100%;
+    
+}
+.line{
+    height:100%;
+    width:250px;
+    display:inline-block;
+    margin-left:14%;
+    margin-bottom:40px;
+}
+.footer_logo{
+    width:150px;
+    height: 100px;
+    margin-top:60px;
+    font-weight: 500;
+}
+.footer_content{
+    font-size:20px;
+    color:white;
+    font-weight: 300;
+    margin-right:30px;
+}
+.footer_heading{
+    font-size:20px;
+    color:white;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+.l2{
+    height:100%;
+    width:100%;
+    display:inline-block;
+    margin-left:1px;
+    margin-top:50px;
+}
+
+.quizzes{
+    height:530px;
+    width:100%;
+    text-align: center;
+    margin: 90px auto;
+}
+.quiz_type{
+    text-align: center;
+    font-size:50px;
+    margin-bottom: 50px;
+    font-weight:700;
+    color:rgb(45,45,45);
+}
+.quiz{
+    position: relative;
+    width:  290px;
+    height: 370px;
+    display: inline-block;
+    margin: 0 5%;
+    overflow: hidden;
+}
+.quiz div {
+    margin-top: 40px;
+    display: block;
+    font-size:30px;
+    color:rgb(45,45,45);
+    font-weight: 400;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+.quiz div:hover{
+    color:#DE195D;
+}
+.quiz img{
+    height: 78%;
+    display: block;
+    margin: 0 auto;
+}
+
+.creators{
+    height:750px;
+    width:100%;
+    text-align:center;
+}
+.c_container{
+    text-align:center;
+}
+.c_circle{
+    border:1px ridge white  ;
+    border-radius: 50%;
+    width:300px;
+    height:300px; 
+}
+.c_circle img{
+    /* max-width: 100%;
+    max-height: 100%; */
+}
+.overlay{
+    background:#DE195D;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: 0.4s;
+    border:1px solid white ;
+    border-radius: 50%;
+    width:300px;
+    height:300px; 
+
+}
+.overlay:hover{
+    opacity:0.6;
+}
+.c_circle:hover{
+    cursor: pointer;
+    
+}
+.catagory{
+    text-align: center;
+    font-size:50px;
+    font-weight:700;
+    color:rgb(45,45,45);
+    margin-top:7%;
+}
+.c_bigtxt{
+    font-size:30px;
+    font-weight:700;
+    margin-top:25px;
+}
+.c_smalltxt{
+    font-size:20px;
+    font-weight:400;
+    color: #6b6b6b;
+}
+.c_box{
+    position: relative;
+    display: inline-block;
+    margin: 3% 5%;
+    overflow: hidden;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content_main {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  .modal-body {padding: 2px 16px;}
+  .modal img{
+      height:600px;
+      width:100%;
+  }
+  .text{
+      position: relative;
+      display:inline-block;
+  }
+.content_c{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-columns: 40% 60%;
+    border:1px solid black;
+    
+}
+.p_text{
+    margin-left:70px;
+    margin-top:20%;
+    font-size: 30px;
+    line-height: 50px;
+}

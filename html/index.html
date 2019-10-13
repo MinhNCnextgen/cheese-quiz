@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>navbar</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onscroll="scroll()">
+        <div class="navbar" id='nav'>
+            <img src='../img/logo đầy đủ.png' ></img>
+            <div class="navButton">
+                
+                <a href='#section1'><div style='line-height:40px;'>Hot quiz</div></a>
+                <a href='#section2'><div style='line-height:40px;'>Thể loại</div></a>
+                <a href='#section3'><div style='line-height:40px;'>Nhà sáng lập</div></a>
+                <a href='#section4'><div class='contact'>Liên hệ</div></a>
+            </div>
+        </div>
+        <div id="demo" class="header_background" >
+            <img src='../img/header_template.png'>
+            <div class='heading_txt'>
+                <div class='heading_big_txt'>Quiz vui mỗi ngày</div>
+                <div class='heading_small_txt'>Tổng hợp những quiz hay, vui nhộn, trắc <br>nghiệm tính cách dành cho bạn</div>
+            </div>
+            <div class='play container'>
+                <div class='play_button' onclick="rnd()" >
+                    <div class='triangle'></div>
+                </div>
+                <div class='play_text'>Chơi ngẫu nhiên</div>
+            </div>
+        </div>
+        <div id='section1'>
+            <div class='quizzes'>
+                <div class='quiz_type'>Hot Quiz</div>
+                <a href='./muitiple_quiz.html?id=1'>
+                    <div class='quiz' id='q1'>
+                        <img src='https://lh3.googleusercontent.com/GOCEWrwk0YhgNgRpjMUmKhsLkYyMG9w_qEFV014fhw_Ne99Gi0WUG9qhsXIZfd_-JPLpXMmKhAzcdbipoY6G5_AHuErjYEqjwnGuFd-9JV2GNm9CHKlS_1XdJjKEJ7xChJKllKu02sRumI9cdAzSciMyOhsYbtRRZtWk4T-GPV0Gk0vxqTPf47snYGvRsUZVzg0u18SL5uUx9Ra7wxgCWXSoeGBLa4kW2T3LHfoevOqQ7pWJ_ssN-3UPFlkqN1Zc3_Y6J6vp3N8LO2oWj4sTJWKPwEqMP_LVpD7xuUjQ_QEvJux_HgqxBpZMu8QTTxZ7TPG0_EOPgEBKerFDNLGIPnpXPp-fQv65fptPVWT1-hG9VCG56whUor8Nxje3VjfNJ9jhEaMHOBTYo8NYsuQ9PGZgdjRDbJENVP1IlLjiScHUZ2ovHSoGHQIAYlevUA9INwxlzmPTYRTnLhdXhb7OxqJ60SQbog3WW-CHzHk7DdC3Isikw4qZuzGrNpZc2KfesvUUR_k4aPDc77aJcM6pVMl9ElrfAWQ-dvIM-Wr8Dt6OCu8rtKCaexsNHH_Lo5qSKQ2mJZrVgPTCFnw1UyRtsqR6Ko7q-AJ89eyRRwY2drJnNGUvdapzNX2xrsY=w1366-h624'>
+                        <div>Lệnh truy nã </div>
+                    </div></a>
+                <a href='./muitiple_quiz.html?='>
+                <div class='quiz' id='q2'>
+                    <img src='../img/quiz/logo/0.jpg'>
+                    <div>Phân biệt logo</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id=3'>
+                <div class='quiz' id='q3'>
+                    <img src='../img/quiz/tochucbimat/0.jpg'>
+                    <div>Tổ chức bí mật</div>
+                </div></a>
+            </div>
+        </div>
+        <div id='section2'>
+            <div class='quizzes'>
+                <div class='quiz_type'>Quiz vui nhộn</div>
+                <a href='./muitiple_quiz.html?id=1'>
+                    <div class='quiz' id='q1'>
+                        <img src='https://lh3.googleusercontent.com/GOCEWrwk0YhgNgRpjMUmKhsLkYyMG9w_qEFV014fhw_Ne99Gi0WUG9qhsXIZfd_-JPLpXMmKhAzcdbipoY6G5_AHuErjYEqjwnGuFd-9JV2GNm9CHKlS_1XdJjKEJ7xChJKllKu02sRumI9cdAzSciMyOhsYbtRRZtWk4T-GPV0Gk0vxqTPf47snYGvRsUZVzg0u18SL5uUx9Ra7wxgCWXSoeGBLa4kW2T3LHfoevOqQ7pWJ_ssN-3UPFlkqN1Zc3_Y6J6vp3N8LO2oWj4sTJWKPwEqMP_LVpD7xuUjQ_QEvJux_HgqxBpZMu8QTTxZ7TPG0_EOPgEBKerFDNLGIPnpXPp-fQv65fptPVWT1-hG9VCG56whUor8Nxje3VjfNJ9jhEaMHOBTYo8NYsuQ9PGZgdjRDbJENVP1IlLjiScHUZ2ovHSoGHQIAYlevUA9INwxlzmPTYRTnLhdXhb7OxqJ60SQbog3WW-CHzHk7DdC3Isikw4qZuzGrNpZc2KfesvUUR_k4aPDc77aJcM6pVMl9ElrfAWQ-dvIM-Wr8Dt6OCu8rtKCaexsNHH_Lo5qSKQ2mJZrVgPTCFnw1UyRtsqR6Ko7q-AJ89eyRRwY2drJnNGUvdapzNX2xrsY=w1366-h624'>
+                        <div>Lệnh truy nã</div>
+                    </div></a>
+                <a href='./muitiple_quiz.html?id=2'>
+                <div class='quiz' id='q2'>
+                    <img src='../img/quiz/quiz_lophoc/0.jpg'>
+                    <div>Danh hiệu lớp học</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id=3'>
+                <div class='quiz' id='q3'>
+                    <img src='../img/quiz/tochucbimat/0.jpg'>
+                    <div>Tổ chức bí mật</div>
+                </div></a>
+            </div>
+
+            <div class='quizzes'>
+                <div class='quiz_type'>Quiz tâm lí tính cách</div>
+                <a href='./muitiple_quiz.html?id=4'>
+                <div class='quiz' id='q1'>
+                    <img src='../img/quiz/in_ex/0.jpg'>
+                    <div>Hướng nội, ngoại</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id=5'>
+                <div class='quiz' id='q2'>
+                    <img src='../img/quiz/7tatxau/0.jpg'>
+                    <div>7 tật xấu</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id=6'>
+                <div class='quiz' id='q3'>
+                    <img src='../img/quiz/daohoa/0.gif'>
+                    <div>Người đào hoa</div>
+                </div></a>
+            </div>
+
+            <div class='quizzes'>
+                <div class='quiz_type'>Quiz Âm nhạc & Điện ảnh</div>
+                <a href='./muitiple_quiz.html?id='>
+                <div class='quiz' id='q1'>
+                    
+                    <img src='../img/quiz/marvel/0.jpeg'>
+                    <div>Fan Marvel</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id=7'>
+                <div class='quiz' id='q2'>
+                    <img src='../img/quiz/singer/0.jpg'>
+                    <div>Bạn là ca sĩ</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id=8'>
+                <div class='quiz' id='q3'>
+                    <img src='../img/quiz/vampire/0.jpg'>
+                    <div>Thế giới Vampire</div>
+                </div></a>
+            </div>
+
+            <div class='quizzes'>
+                <div class='quiz_type'>Quiz kiến thức</div>
+                <a href='./muitiple_quiz.html?id='>
+                <div class='quiz' id='q1'>
+                    
+                    <img src='../img/quiz/logo/0.jpg'>
+                    <div>Phân biệt logo</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id='>
+                <div class='quiz' id='q2'>
+                    <img src='../img/quiz/flags/0.png'>
+                    <div>Nhìn cờ đoán tên</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id='>
+                <div class='quiz' id='q3'>
+                    <img src='../img/quiz/camkythihoa/0.jpg'>
+                    <div>Cầm kì thi họa</div>
+                </div></a>
+            </div>
+            
+            <div class='quizzes'>
+                <div class='quiz_type'>Quiz IQ/EQ</div>
+                <a href='./muitiple_quiz.html?id='>
+                <div class='quiz' id='q1'>
+                    
+                    <img src='../img/quiz/iq/0.jpg'>
+                    <div>Chỉ số IQ</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id='>
+                <div class='quiz' id='q2'>
+                    <img src='../img/quiz/aoloi/0.jpg'>
+                    <div>Ảnh ảo giác</div>
+                </div></a>
+                <a href='./muitiple_quiz.html?id='>
+                <div class='quiz' id='q3'>
+                    <img src='../img/quiz/bancogioinhanbietcamxuc/0.jpg'>
+                    <div>Chỉ số EQ</div>
+                </div></a>
+            </div>
+        </div>    
+        
+
+<!-- Hot quiz:Flags,Logo,Cxuc,In and extrovert -->
+<!-- tâm lý,tính cách:In and extrovert, 7 tật xấu, đào hoa -->
+<!-- movies and music:marvel, singer, vampire -->
+<!-- kt:logo, flags, cầm kỳ thi họa -->
+<!-- iq và eq:Iq, aoloi, cảm xúc -->
+<!-- funny:lệnh truy nã, lớp học, vampire -->
+        <div id='section3'>
+            <div class='creators'>
+                <div class='catagory'>Nhà sáng lập</div>
+                <div class='c_box'>
+                    <div class='c_circle' style='background:url(../img/Minh.jpg);background-size: 100% 100%;' onclick='showInfo(1)' id=''>
+                        <div class='overlay'></div> 
+                    </div>
+                    <div class='c_bigtxt'>Nguyễn Công Minh</div>
+                    <div class='c_smalltxt'>Developer</div>
+                </div>
+                <div class='c_box'>
+                    <div class='c_circle' style='background:url(../img/Uyên.jpg);background-size: 100% 100%;' onclick='showInfo(2)'>
+                        <div class='overlay'></div>  
+                    </div>
+                    <div class='c_bigtxt'>Nguyễn Phương Uyên</div>
+                    <div class='c_smalltxt'>Presenter</div>
+                </div>
+                <div class='c_box'>
+                    <div class='c_circle' style='background:url(../img/Chi.jpg);background-size: 100% 100%;' onclick='showInfo(3)'>
+                        <div class='overlay'></div>              
+                    </div>
+                    <div class='c_bigtxt'>Ngô Mai Chi</div>
+                    <div class='c_smalltxt'>Designer</div>
+                </div>
+        </div>        
+        </div>
+        <div id='section4'>
+            <div class='footer'>
+                    <div class=''>
+                        <div class='line'>
+                            <img class='footer_logo' src='../img/logo đầy đủ.png'></img>
+                            <div class='footer_content'>CHEESEQUIZ là một website được tạo
+                                    bởi thành viên của khóa C4T21 – MindX.
+                                    Hãy tận hưởng những câu quiz thú vị
+                                    mà bọn mình tạo ra nhé</div>
+                        </div>
+                        <div class='line' style='margin-left:15%;'>
+                            <div class='footer_heading'>Liên hệ</div>
+                            <div class='footer_content'>MindX Technology School
+                                    <br>73 Nguyễn Chí Thanh,
+                                    <br>quận Đống Đa <br>TP HN<br>SĐT:0835128315</div>
+                        </div>
+                        <div class='line' style='margin-left:15%;'>
+                            <div class='footer_heading'>Thể loại</div>
+                            <div class='footer_content'>Vui nhộn
+                                    <br>Tâm lí tính cách
+                                    <br>Âm nhạc & điện ảnh
+                                    <br>Kiến thức
+                                    <br>IQ/EQ</div>
+                        
+                        </div>
+                        <div class='l2'>
+                            <!-- <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-youtube"></a> -->
+                            <!-- <div class='container'style='font-size:12px;float: right;'>	&copy; 2019 Creations All Rights Reserved</div> -->
+                        </div>
+                </div>
+            </div>
+        </div>   
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content_main">
+            <span class="close"></span>
+
+            <!-- <div class="modal-body">
+                
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+            </div> -->
+            <div class='content_c'>
+                <img src='' id='p_img'>
+                <div class='p_text' id='p_txt'>
+                    <div id='p_txt1'></div>
+                    <div id='p_txt2'></div>
+                    <div id='p_txt3'></div>
+                    <div id='p_txt4'></div>
+                </div>
+             </div>
+        </div>
+
+    </div>
+
+    </body>
+    <script src='main_js.js'></script>
+    <script src='db_multiple_choice-new.js'></script>
+    <script src='multiple_quiz.js'></script>
+</html> 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./muitiple_quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body onscroll="scroll()">
+    <div class="navbar" id='nav'>
+            <img src='../img/logo đầy đủ.png' ></img>
+            <div class="navButton">
+                <div style='line-height:40px;'>Hot quiz</div>
+                <div style='line-height:40px;'>Thể loại</div>
+                <div style='line-height:40px;'>Nhà sáng lập</div>
+                <div class='contact'>Liên hệ</div>
+            </div>
+        </div>
+    <div id='result-modal' class="result-modal">
+        <div class="modal-content">
+            <h1 id='modal-title'>abc</h1>
+            <p id='modal-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur soluta officiis iure reiciendis illo obcaecati.</p>
+            <a id='modal-button' href="#" onclick="modalButtonOnClick()">Chơi quiz khác</a>
+        </div>
+    </div>
+    <div id='quiz-ident-container' class="quiz-ident-container">
+        <!-- quiz ident insert here -->
+    </div>
+    <div id='quiz-count' class="quiz-count">
+        <p>1 / 6</p>
+    </div>
+    <div id='quiz-container' class="quiz-container">
+        <!-- quiz insert here -->
+
+    </div>
+    <div class='footer'>
+            <div class=''>
+                <div class='line'>
+                    <img class='footer_logo' src='../img/logo đầy đủ.png'></img>
+                    <div class='footer_content'>CHEESEQUIZ là một website được tạo
+                            bởi thành viên của khóa C4T21 – MindX.
+                            Hãy tận hưởng những câu quiz thú vị
+                            mà bọn mình tạo ra nhé</div>
+                </div>
+                <div class='line' style='margin-left:15%;'>
+                    <div class='footer_heading'>Liên hệ</div>
+                    <div class='footer_content'>MindX Technology School
+                            <br>73 Nguyễn Chí Thanh,
+                            <br>quận Đống Đa <br>TP HN<br>SĐT:0835128315</div>
+                </div>
+                <div class='line' style='margin-left:15%;'>
+                    <div class='footer_heading'>Thể loại</div>
+                    <div class='footer_content'>Vui nhộn
+                            <br>Tâm lí tính cách
+                            <br>Âm nhạc & điện ảnh
+                            <br>Kiến thức
+                            <br>IQ/EQ</div>
+                
+                </div>
+                <div class='l2'>
+                    <!-- <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a> -->
+                    <!-- <div class='container'style='font-size:12px;float: right;'>	&copy; 2019 Creations All Rights Reserved</div> -->
+                </div>
+            </div>
+    </div>        
+    <script src="./db_multiple_choice-new.js"></script>
+    <script src="./multiple_quiz.js"></script>
+    <script src='main_js.js'></script>
+    
+</body>
+
+</html>
