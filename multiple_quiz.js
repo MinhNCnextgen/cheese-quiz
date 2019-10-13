@@ -127,7 +127,7 @@ function genQuiz(quiz) {
                 <p class='content'>${quiz.choices[0]}</p>
             </div>
             <div class="quiz-choice" onclick="choiceOnClick(event)" value=1>
-                <h3 class="option" style="padding: 5px 9.6px;">B</h3>
+                <h3 class="option" >B</h3>
                 <p class='content'>${quiz.choices[1]}</p>
             </div>
             <div class="quiz-choice" onclick="choiceOnClick(event)" value=2>
