@@ -26,9 +26,9 @@ function showInfo(type) {
     }else if(type==2){
         document.getElementById('p_img').src='../img/Uyên 2.jpg'
         document.getElementById('p_txt1').textContent='2.Phương Thi Uyên'
-        document.getElementById('p_txt2').textContent='Là học sinh lớp ...  trường ...'
-        document.getElementById('p_txt3').textContent='Sở thích:...'
-        document.getElementById('p_txt4').textContent='Đảm nhận công việc:...'
+        document.getElementById('p_txt2').textContent='Là học sinh lớp 12 trường THPT Việt Đức'
+        document.getElementById('p_txt3').textContent='Sở thích:Đọc truyện, nghe nhạc, xem phim'
+        document.getElementById('p_txt4').textContent='Đảm nhận công việc:Nghĩ ra tên web, lên ý tưởng, thuyết trình,viết bài marketing'
     }else if(type==3){
         document.getElementById('p_img').src='../img/Chi 2.jpg'
         document.getElementById('p_txt1').textContent='3.Ngô Mai Chi'
@@ -45,6 +45,7 @@ window.onclick = function(event) {
     }
 }
 function rnd(){
-    a="./muitiple_quiz.html?id=" + String(Math.floor(Math.random() * 9))
-    window.open(a)
+    a="./muitiple_quiz.html?id=" + String(Math.ceil(Math.random() * 8))
+    console.log(a)
+    // window.open(a)
 }

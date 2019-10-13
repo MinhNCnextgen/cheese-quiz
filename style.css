@@ -82,6 +82,7 @@ body{
 }
 .play_button:hover{
     cursor: pointer;
+    background:linear-gradient(90deg, rgba(32,189,200,1) 0%, rgba(28,181,163,1) 35%, rgba(27,171,107,1) 75.37%, rgba(26,162,59,1) 100%);
 }
 .navbar{
     position: fixed;
@@ -106,7 +107,7 @@ body{
     color:white; 
     margin-right:40px;
 }
-.navButton div:hover {
+.n_button:hover{
     color:rgb(190, 24, 190); 
     transition:0.2s;
     cursor:pointer;
@@ -122,7 +123,10 @@ body{
     line-height:40px;
 }
 .contact:hover{
-    opacity: 1;
+    transition:0.2s;
+    cursor:pointer;
+    opacity: 0.7;
+    color:white; 
     background: linear-gradient(90deg, rgba(32,189,200,1) 0%, rgba(28,181,163,1) 35%, rgba(27,171,107,1) 75.37%, rgba(26,162,59,1) 100%);
 }
 .navbar img{
