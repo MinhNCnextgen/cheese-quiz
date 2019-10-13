@@ -46,6 +46,5 @@ window.onclick = function(event) {
 }
 function rnd(){
     a="./muitiple_quiz.html?id=" + String(Math.ceil(Math.random() * 8))
-    console.log(a)
-    // window.open(a)
+    window.open(a)
 }
