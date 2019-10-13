@@ -25,7 +25,7 @@ function showInfo(type) {
         document.getElementById('p_txt4').textContent='Đảm nhận công việc:Lập trình trang chủ cho web'
     }else if(type==2){
         document.getElementById('p_img').src='img/uyen2.jpg'
-        document.getElementById('p_txt1').textContent='2.Phương Thi Uyên'
+        document.getElementById('p_txt1').textContent='2.Nguyễn Phương Uyên'
         document.getElementById('p_txt2').textContent='Là học sinh lớp 12 trường THPT Việt Đức'
         document.getElementById('p_txt3').textContent='Sở thích:Đọc truyện, nghe nhạc, xem phim'
         document.getElementById('p_txt4').textContent='Đảm nhận công việc:Nghĩ ra tên web, lên ý tưởng, thuyết trình,viết bài marketing'
