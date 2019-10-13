@@ -149,11 +149,11 @@ body{
     width:250px;
     display:inline-block;
     margin-left:14%;
-    margin-bottom:40px;
+    margin-bottom:70px;
 }
 .footer_logo{
-    width:150px;
-    height: 100px;
+    width:75%;
+    height:75%;
     margin-top:60px;
     font-weight: 500;
 }
@@ -171,10 +171,11 @@ body{
 }
 .l2{
     height:100%;
-    width:100%;
+    width:300px;
     display:inline-block;
     margin-left:1px;
-    margin-top:50px;
+    margin-top:20%;
+    font-size:12px;
 }
 
 .quizzes{
