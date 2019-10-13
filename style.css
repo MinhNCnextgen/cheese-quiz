@@ -125,7 +125,7 @@ body{
 .contact:hover{
     transition:0.2s;
     cursor:pointer;
-    opacity: 0.7;
+    opacity: 1;
     color:white; 
     background: linear-gradient(90deg, rgba(32,189,200,1) 0%, rgba(28,181,163,1) 35%, rgba(27,171,107,1) 75.37%, rgba(26,162,59,1) 100%);
 }
@@ -151,7 +151,7 @@ body{
     margin-left:14%;
     margin-bottom:70px;
 }
-.footer_logo{
+.footer_logo{ 
     width:75%;
     height:75%;
     margin-top:60px;
